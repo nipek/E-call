@@ -1,0 +1,33 @@
+
+
+<ion-content text-center class="vertical-align-content" padding (click)="listen()">
+  <!-- <p>Is listening ? : {{ isListening }}</p> -->
+  <!-- <button ion-button (click)="getPermission()">Get Permission</button>
+  <button ion-button>
+    <div>
+      <ion-icon name="mic">
+        <label>Speak to me</label>
+      </ion-icon>
+    </div>
+  </button> -->
+ 
+  <ion-grid>
+    <ion-row>
+      <ion-col width-90>
+      <button ion-button icon-only large clear round color="secondary">
+        <ion-icon name="mic"></ion-icon>
+      </button>
+      <p>Tap on the screen, to call the person you want</p>
+      <p>jus say the contact name...example below</p>
+      <p>Dad</p>
+      <p>{{ check }}</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <!--<ion-card>
+   <ion-card-content *ngFor="let match of matches"> 
+       <ion-card-content>
+      <p>{{ matches }}</p>
+    </ion-card-content>
+  </ion-card> -->
+</ion-content>
